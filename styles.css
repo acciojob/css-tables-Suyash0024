@@ -7,11 +7,19 @@
 
     th, td {
       border: 1px solid black;
-	  border-radius: 10px;
-      padding: 10px;
+	  border-radius: 5px;
+      padding: 8px;
       text-align: center;
     }
 
-    th {
+ th {
       background-color: #D3D3D3;
+    }
+
+    tr:nth-child(odd) td {
+      background-color: #ffffff;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f2f2f2;
     }
